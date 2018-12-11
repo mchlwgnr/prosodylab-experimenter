@@ -111,7 +111,7 @@ while maxTrials-max(counter)>0
             
             while true
                 
-                while KbCheck([-1]); end;
+                while KbCheck(-1); end
                 
                 % display image if there is an image column
                 if isfield(playList{exper}(k),'image')
@@ -141,7 +141,7 @@ while maxTrials-max(counter)>0
                 
                 Screen('Flip',ws.ptr);
                 
-                while ~KbCheck([-1]); end;
+                while ~KbCheck(-1); end
                 
                 
                 if ~isempty(contextFile)
@@ -325,13 +325,13 @@ while maxTrials-max(counter)>0
                     
                     retrial=pressed_key;
                     
-                    while ~KbCheck([-1]); end;
+                    while ~KbCheck(-1); end
                 end
                 
-                if strcmp(retrial,'n')
-                    break;
-                else
+                if strcmp(retrial,'y')
                     askReady(ws,double(settings.retrialMessage2),settings);
+                else
+                    break;
                 end
             end
             

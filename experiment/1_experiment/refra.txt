@@ -1,0 +1,9 @@
+experiment	item	condition	context	text	design	record	retrial
+refra	1	1	We need to decide who to invite to dinner. Who likes Nolan?	Rachel likes Nolan. But she doesn't like his partner, Elliot. So maybe it's not a good idea to invite them to the dinner.	Within	y	y
+refra	2	1	Who wants to go Poland?	Mary wants to go to Poland. But she would much prefer to go to Spain.	Within	y	y
+refra	3	1	The plan for tonight has changed. Who will call Lauren?	Sue can call Lauren. But we also have to let Ann know.	Within	y	y
+refra	4	1	We need to decide who to invite for the party. Who wants to invite Megan?	Sally will invite Megan. But then we probably shouldn't invite Jake. 	Within	y	y
+refra	5	1	Who wants to bike down the black trail with me? 	Nelly wants to try the back trail. But you both should practice on the blue trails a few times more before you try this.	Within	y	y
+refra	6	1	Who managed to solve problem 7?	Lilly managed to solve problem 7. But the really hard one was problem 8. No one managed to solve that one.	Within	y	y
+refra	7	1	Who managed to obtain the brown belt? 	Jon managed the test for the brown belt. But Sara even has a black belt.	Within	y	y
+refra	8	1	Who managed to finish the fourth level?	Lizzie finished the fourth level. But level 5 appears to be simply impossible.	Within	y	y
