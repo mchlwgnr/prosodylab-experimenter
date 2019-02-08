@@ -411,4 +411,6 @@ end
 Screen('TextSize',ws.ptr,60);
 drawText('Thank You!',ws,1);
 
+
+rmpath('prosodylabscripts');
 clear screen
