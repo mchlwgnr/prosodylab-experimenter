@@ -157,7 +157,9 @@ settings.acceptedkeys = {'1!','2@','3#','4$','5%','6^','7&','8*','9(','0)',...
     'RETURN','DELETE','ESCAPE','ENTER','1','2','3','4','5','6','7',...
     '8','9','0'};
 
-
+% rm path in case previous exp was aborted
+rmpath('prosodylabscripts');
+% add local path to helper scripts
 addpath('prosodylabscripts');
 
 % check device numbers for input and output are correct

@@ -173,7 +173,7 @@ while maxTrials-max(counter)>0
                             
                             Screen('Flip',ws.ptr);
                         else
-                            Screen('DrawText', ws.ptr, double(settings.message2),50,[settings.messageheight]);
+                            DrawFormattedText(ws.ptr, double(settings.message2),settings.messagex,settings.messagey,[255, 0, 0, 255],settings.textwidth,[],[],1.2);
                             Screen('Flip',ws.ptr);
                         end
                     end
@@ -259,7 +259,7 @@ while maxTrials-max(counter)>0
                             
                             Screen('Flip',ws.ptr);
                         else
-                            Screen('DrawText', ws.ptr, double(settings.message2),50,[settings.messageheight]);
+                            DrawFormattedText(ws.ptr, double(settings.message5),settings.messagex,settings.messagey,[255, 0, 0, 255],settings.textwidth,[],[],1.2);
                             Screen('Flip',ws.ptr);
                         end
                     end
